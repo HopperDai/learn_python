@@ -15,7 +15,7 @@
   - 安装 Python 。得到 Python 解析器（负责运行 Python 程序）、命令交互环境、简单的集成开发环境
     - 下载地址：https://www.python.org/downloads/release/python-370/
     - 安装过程记得勾选 `Add Python 3.7 to PATH ` , 自动帮你配置全局变量
-      - 安装成功：![1533355532252](.\imgs\1533355532252.png)
+      - 安装成功：![1533355532252](/imgs/1533355532252.png)
   - 编辑器：[PyCharm](http://www.jetbrains.com/pycharm/download/#section=windows)
 - Python 解释器 ：执行 `.py`  文件。安装好 Python 3.x 后，得到 CPython 解释器，运行`python`就启动该解释器
 
