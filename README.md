@@ -19,7 +19,7 @@
   - 编辑器：[PyCharm](http://www.jetbrains.com/pycharm/download/#section=windows)
 - Python 解释器 ：执行 `.py`  文件。安装好 Python 3.x 后，得到 CPython 解释器，运行`python`就启动该解释器
 
-## 语法
+## [语法](/docs/grammar.md)
 
 ### 初级
 
