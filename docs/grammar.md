@@ -150,3 +150,22 @@ else:
 'hello, %s. You have $%d' % ('hopper',1000)
 # 'hello, hopper. You have $1000'
 ```
+
+## list & tuple
+
+- list 有序的集合，可以随时添加和删除其中的元素
+
+    - `len()` 函数可以获取list元素的个数
+    
+    - `append` 方法往list中追加元素到末尾
+    
+    - `insert` 方法把元素插入到指定的位置
+    
+        ```python
+          # 索引为 1 的位置插入元素
+          classmate.insert(1,'aa')
+        ```
+        
+    - `pop` 方法删除list末尾的元素
+    
+        - 要删除指定的元素，使用 `pop(i)` , i 是索引位置
