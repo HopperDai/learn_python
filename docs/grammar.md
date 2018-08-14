@@ -200,3 +200,29 @@ else:
     - `break` 语句可以提前结束循环
     
     - `continue` 语句跳过当前的这次循环，直接开始下一次循环
+    
+## dict 和 set
+
+### dict。全称：dictionary，在其他语言中称为 map ，使用键-值（key-value）存储，具有极快的查找速度
+
+- 如果 `key` 不存在，dict 会报错
+
+    - 避免key不存在的错误，有两种
+    
+        - 通过 `in` 判断 key 是否存在
+        
+        - 通过 dict 的 `get()` 方法，如果 key 不存在，可以返回 None ，或者自己指定的 value
+        
+- 删除一个 key ，使用 `pop(key)` 方法，对应的 value 会从 dict 中删除
+
+- 和 list 对比，dict 的不同
+
+    - 查找和插入的速度极快，不会随着 key 的增加而增加
+    
+    - 需要占用大量的内存，内存浪费多
+    
+- 注：
+
+    - dict 是用空间来换取时间的一种方法
+    
+    - dict 的 key 是不可变对象。在 Python 中，字符串和整数是不可变的，可以作为 key , list 是可变的，不能作为 key
