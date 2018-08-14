@@ -226,3 +226,13 @@ else:
     - dict 是用空间来换取时间的一种方法
     
     - dict 的 key 是不可变对象。在 Python 中，字符串和整数是不可变的，可以作为 key , list 是可变的，不能作为 key
+    
+### set 是一组 key 的集合，但不存储 value。由于 key 不能重复，因此在 set 中，没有重复的 key
+
+- 要创建一个 set , 需要提供一个 list 作为输入集合
+
+- 重复的元素在 set 中自动被过滤
+
+- 通过 `add(key)` 方法可以添加元素到 set 中
+
+- 通过 `remove(key)` 可以删除元素
