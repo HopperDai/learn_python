@@ -21,7 +21,7 @@
 
 ## [语法](/docs/grammar.md)
 
-### 初级
+## [函数](/docs/function.md)
 
 ### 高级
 
